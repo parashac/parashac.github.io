@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Parash Acharya — Portfolio</title>
+  <link rel="stylesheet" href="static/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ──────────────── NAV ──────────────── -->
+  <nav class="nav" id="navbar">
+    <div class="nav-logo">PA<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <section class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-orb orb1"></div>
+    <div class="hero-orb orb2"></div>
+    <div class="hero-orb orb3"></div>
+
+    <div class="hero-inner">
+      <div class="hero-card">
+        <div class="profile-ring">
+          <img src="static/img/img.JPG" alt="Parash Acharya" class="profile-img" id="profileImg" onerror="this.src='https://avatars.githubusercontent.com/u/140677046?v=4'"/>
+        </div>
+        <div class="status-badge"><span class="pulse-dot"></span> Open to Work</div>
+        <h1 class="hero-name">Parash<br/><em>Acharya</em></h1>
+        <p class="hero-role">Computer Engineering Undergraduate<br/>
+          <span class="highlight">Django Enthusiast &amp; Aspiring Software Engineer</span>
+        </p>
+        <div class="hero-meta">
+          <span><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>Lalitpur, Nepal</span>
+          <span><svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>parashacharya139@gmail.com</span>
+          <span><svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>9842010424</span>
+        </div>
+        <div class="hero-links">
+          <a href="https://github.com/parashac" target="_blank" class="btn btn-outline">
+            <svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            GitHub
+          </a>
+          <a href="https://linkedin.com/in/parash-acharya-671500371" target="_blank" class="btn btn-outline">
+            <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+          <a href="mailto:parashacharya139@gmail.com" class="btn btn-primary">Hire Me</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="floating-tag tag1">Python</div>
+        <div class="floating-tag tag2">Django</div>
+        <div class="floating-tag tag3">Machine Learning</div>
+        <div class="floating-tag tag4">MySQL</div>
+        <div class="floating-tag tag5">C++</div>
+        <div class="code-window">
+          <div class="code-header">
+            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+            <span class="code-title">about_parash.py</span>
+          </div>
+          <pre class="code-body"><span class="kw">class</span> <span class="cl">ParashAcharya</span>:
+    role <span class="op">=</span> <span class="str">"Backend Developer"</span>
+    university <span class="op">=</span> <span class="str">"Kantipur Eng. College"</span>
+    stack <span class="op">=</span> [<span class="str">"Python"</span>, <span class="str">"Django"</span>, <span class="str">"MySQL"</span>]
+    interests <span class="op">=</span> [<span class="str">"AI/ML"</span>, <span class="str">"Backend"</span>, <span class="str">"CV"</span>]
+
+    <span class="kw">def</span> <span class="fn">get_status</span>(self):
+        <span class="kw">return</span> <span class="str">"Open to opportunities 🚀"</span></pre>
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-down">
+      <span>Scroll</span>
+      <div class="arrow-anim"></div>
+    </a>
+  </section>
+
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-label"></div>
+      <h2 class="section-title">Who Am I<span class="dot">?</span></h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm a <strong>Computer Engineering undergraduate</strong> at Kantipur Engineering College (Tribhuvan University), passionate about building backend systems that solve real-world problems.</p>
+          <p>Currently deep-diving into <strong>Django &amp; Python</strong> while exploring the intersection of <strong>Machine Learning and practical software engineering</strong>. I believe great software comes from understanding both the algorithm and the user.</p>
+          <p>My projects span from <strong>Automatic Number Plate Recognition</strong> for Nepali vehicles to <strong>real-time violence detection</strong> from CCTV feeds — combining computer vision, deep learning, and web development into end-to-end systems.</p>
+          <p>I'm seeking an <strong>entry-level Django or backend role</strong> where I can grow, contribute, and turn ideas into scalable applications.</p>
+          <div class="about-stats">
+            <div class="stat"><span class="stat-num">3+</span><span class="stat-label">Projects Built</span></div>
+            <div class="stat"><span class="stat-num">3+</span><span class="stat-label">Years Coding</span></div>
+          </div>
+        </div>
+        <div class="about-edu">
+          <h3>Education</h3>
+          <div class="edu-timeline">
+            <div class="edu-item">
+              <div class="edu-year">2022 – Present</div>
+              <div class="edu-content">
+                <strong>B.E. Computer Engineering</strong>
+                <span>Kantipur Engineering College, Tribhuvan University</span>
+              </div>
+            </div>
+            <div class="edu-item">
+              <div class="edu-year">2019 – 2021</div>
+              <div class="edu-content">
+                <strong>+2 Science (Higher Secondary)</strong>
+                <span>United Academy</span>
+              </div>
+            </div>
+            <div class="edu-item">
+              <div class="edu-year">2019</div>
+              <div class="edu-content">
+                <strong>School Level Education</strong>
+                <span>Newton's Education Academy/span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="skills section" id="skills">
+    <div class="skills-bg"></div>
+    <div class="container">
+      <div class="section-label"></div>
+      <h2 class="section-title">What I Work With<span class="dot">.</span></h2>
+      <p class="section-sub">Technologies and tools I use to bring ideas to life.</p>
+      <div class="skills-float" id="skillsFloat">
+        <!-- JS renders floating skill bubbles -->
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon python-icon">🐍</div>
+          <div class="skill-name">Python</div>
+          
+        </div>
+        <div class="skill-card" >
+          <div class="skill-icon">🌐</div>
+          <div class="skill-name">Django</div>
+        </div>
+        <div class="skill-card" >
+          <div class="skill-icon">🗄️</div>
+          <div class="skill-name">MySQL</div>
+        </div>
+        <div class="skill-card" >
+          <div class="skill-icon">⚙️</div>
+          <div class="skill-name">C++</div>
+        </div>
+        <div class="skill-card" data-level="75">
+          <div class="skill-icon">🤖</div>
+          <div class="skill-name">Machine Learning</div>
+        </div>
+        <div class="skill-card" data-level="70">
+          <div class="skill-icon">👁️</div>
+          <div class="skill-name">Computer Vision</div>
+        </div>
+        <div class="skill-card" data-level="65">
+          <div class="skill-icon">🔷</div>
+          <div class="skill-name">OOP</div>
+        </div>
+        <div class="skill-card" data-level="65">
+          <div class="skill-icon">🌍</div>
+          <div class="skill-name">Web Development</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-label"></div>
+      <h2 class="section-title">What I've Built<span class="dot">.</span></h2>
+      <p class="section-sub">Real-world projects combining backend development, ML, and computer vision.</p>
+      <div class="projects-grid" id="projectsGrid">
+
+        <div class="project-card featured" data-project="0">
+          <div class="project-badge"></div>
+          <div class="project-tag-row">
+            <span class="ptag">Python</span><span class="ptag">OpenCV</span><span class="ptag">ML</span>
+          </div>
+          <h3 class="project-title">ANPR — Automatic Number Plate Recognition</h3>
+          <p class="project-desc">A machine learning system tailored for <strong>Nepali license plates</strong> that detects and localizes number plates from images and converts plate characters to digital text using image processing techniques.</p>
+          <div class="project-meta">
+            <span>⭐ 1 Star</span>
+            <span>2025</span>
+          </div>
+          <div class="project-actions">
+            <button class="btn btn-sm btn-ghost" onclick="openModal(0)">Details</button>
+            <a href="https://github.com/parashac/ANPR" target="_blank" class="btn btn-sm btn-code">
+              <svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              View Code
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card" data-project="1">
+          <div class="project-tag-row">
+            <span class="ptag">Django</span><span class="ptag">Python</span><span class="ptag">Data Viz</span>
+          </div>
+          <h3 class="project-title">NutriLog — Nutrition & Fitness Tracker</h3>
+          <p class="project-desc">A Django-based web application for tracking daily nutrition, calorie intake, exercise activity, and personal health routines with data visualization features.</p>
+          <div class="project-meta">
+            <span>⭐ 2 Stars</span>
+            <span>2026</span>
+          </div>
+          <div class="project-actions">
+            <button class="btn btn-sm btn-ghost" onclick="openModal(1)">Details</button>
+            <a href="https://github.com/parashac/NutriLog" target="_blank" class="btn btn-sm btn-code">
+              <svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              View Code
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card ongoing" data-project="2">
+          <div class="project-badge ongoing-badge">🔴 Live / Ongoing</div>
+          <div class="project-tag-row">
+            <span class="ptag">Python</span><span class="ptag">Deep Learning</span><span class="ptag">CCTV</span>
+          </div>
+          <h3 class="project-title">VIOLENS — Real-Time Violence Detection</h3>
+          <p class="project-desc">Developing a real-time violence detection system that processes live CCTV camera feeds to identify and flag violent activity using deep learning models.</p>
+          <div class="project-meta">
+            <span>🚧 In Progress</span>
+            <span>2025–Present</span>
+          </div>
+          <div class="project-actions">
+            <button class="btn btn-sm btn-ghost" onclick="openModal(2)">Details</button>
+            <a href="https://github.com/parashac" target="_blank" class="btn btn-sm btn-code">
+              <svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              View Code
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card" data-project="3">
+          <div class="project-tag-row">
+            <span class="ptag">Django</span><span class="ptag">Python</span><span class="ptag">CMS</span>
+          </div>
+          <h3 class="project-title">News Portal — Django CMS</h3>
+          <p class="project-desc">A full-featured news portal built with Django, featuring article management, categories, user authentication, and a clean reading interface.</p>
+          <div class="project-meta">
+            <span>Django</span>
+            <span>2024</span>
+          </div>
+          <div class="project-actions">
+            <button class="btn btn-sm btn-ghost" onclick="openModal(3)">Details</button>
+            <a href="https://github.com/parashac/NEWS_PORTAL-Django" target="_blank" class="btn btn-sm btn-code">
+              <svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              View Code
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card" data-project="4">
+          <div class="project-tag-row">
+            <span class="ptag">Django</span><span class="ptag">Python</span><span class="ptag">Portfolio</span>
+          </div>
+          <h3 class="project-title">Personal Portfolio — Django</h3>
+          <p class="project-desc">A dynamic portfolio website built with Django that allows adding and displaying projects and contact information, demonstrating full-stack web development skills.</p>
+          <div class="project-meta">
+            <span>⭐ 1 Star</span>
+            <span>2024</span>
+          </div>
+          <div class="project-actions">
+            <button class="btn btn-sm btn-ghost" onclick="openModal(4)">Details</button>
+            <a href="https://github.com/parashac/Personal-portfolio" target="_blank" class="btn btn-sm btn-code">
+              <svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              View Code
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card" data-project="5">
+          <div class="project-tag-row">
+            <span class="ptag">Django</span><span class="ptag">Python</span><span class="ptag">Media</span>
+          </div>
+          <h3 class="project-title">Django Image Gallery</h3>
+          <p class="project-desc">A clean image gallery application where users can upload, view, and delete images from organized albums — built with Django's file handling and ORM.</p>
+          <div class="project-meta">
+            <span>Python</span>
+            <span>2024</span>
+          </div>
+          <div class="project-actions">
+            <button class="btn btn-sm btn-ghost" onclick="openModal(5)">Details</button>
+            <a href="https://github.com/parashac/Django-based-Image_Gallery" target="_blank" class="btn btn-sm btn-code">
+              <svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              View Code
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="certificates section" id="certificates">
+    <div class="container">
+      <div class="section-label"></div>
+      <h2 class="section-title">Credentials<span class="dot">.</span></h2>
+      <p class="section-sub">Courses and certifications that have shaped my skills.</p>
+      <div class="cert-grid">
+        <div class="cert-card">
+          <div class="cert-icon">🐍</div>
+          <div class="cert-body">
+            <div class="cert-issuer">Broadways Infosys</div>
+            <div class="cert-name">Python with Django</div>
+            <div class="cert-year">Completed</div>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon">🌐</div>
+          <div class="cert-body">
+            <div class="cert-issuer">Techaxis</div>
+            <div class="cert-name">Data Science with Python</div>
+            <div class="cert-year">Completed</div>
+          </div>
+        </div>
+  </section>
+
+  <section class="contact section" id="contact">
+    <div class="contact-bg"></div>
+    <div class="container">
+      <div class="section-label"></div>
+      <h2 class="section-title">Let's Connect<span class="dot">.</span></h2>
+      <p class="section-sub">Open to internships, freelance work, and full-time backend roles. Let's build something great together.</p>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">📧</div>
+            <div>
+              <div class="contact-label">Email</div>
+              <a href="mailto:parashacharya139@gmail.com">parashacharya139@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📞</div>
+            <div>
+              <div class="contact-label">Phone</div>
+              <a href="tel:+9779842010424">+977 9842010424</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div>
+              <div class="contact-label">Location</div>
+              <span>Lalitpur, Nepal</span>
+            </div>
+          </div>
+          <div class="contact-social">
+            <a href="https://github.com/parashac" target="_blank" class="social-btn">
+              <svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              GitHub
+            </a>
+            <a href="https://linkedin.com/in/parash-acharya-671500371" target="_blank" class="social-btn">
+              <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <input type="text" class="form-input" placeholder="Your Name" required/>
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-input" placeholder="Your Email" required/>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-input" placeholder="Subject"/>
+          </div>
+          <div class="form-group">
+            <textarea class="form-input form-textarea" placeholder="Your Message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width" id="submitBtn">Send Message ✉️</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">PA<span class="dot">.</span></div>
+      <p>Parash Acharya · Lalitpur, Nepal</p>
+      <p class="footer-copy">© 2025 Parash Acharya. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal" id="modal">
+      <button class="modal-close" id="modalClose">✕</button>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="static/js/main.js"></script>
+</body>
+</html>
