@@ -1234,3 +1234,13 @@ a { color: inherit; text-decoration: none; }
   .modal { padding: 24px; }
   .contact-social { flex-direction: column; }
 }
+.skill-icon img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+.cert-icon img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
