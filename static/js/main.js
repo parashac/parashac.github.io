@@ -156,7 +156,7 @@ const projects = [
   {
     title: 'VIOLENS — Real-Time Violence Detection',
     tags: ['Python', 'Deep Learning', 'CCTV', 'Computer Vision', 'OpenCV'],
-    description: 'An ongoing project developing a real-time violence detection system that processes live CCTV camera feeds using deep learning to identify and flag violent activity automatically.',
+    description: 'A project which is a real-time violence detection system that processes live CCTV camera feeds using deep learning to identify and flag violent activity automatically.',
     features: [
       'Real-time processing of live CCTV camera video streams',
       'Deep learning model trained on violence/non-violence dataset',
@@ -164,8 +164,8 @@ const projects = [
       'Alert system for flagging violent incidents',
       'Optimized for near real-time inference on standard hardware',
     ],
-    github: 'https://github.com/parashac',
-    year: '2025 – Present (Ongoing)',
+    github: 'https://github.com/parashac/VioLens',
+    year: '2026',
   },
   {
     title: 'News Portal — Django CMS',
